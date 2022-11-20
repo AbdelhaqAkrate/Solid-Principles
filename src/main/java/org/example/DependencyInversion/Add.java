@@ -1,6 +1,6 @@
 package org.example.DependencyInversion;
 
-public class Add implements Calculator {
+public class Add implements CalculatorInterface {
     @Override
     public double calcul(double a, double b) {
         return a + b;

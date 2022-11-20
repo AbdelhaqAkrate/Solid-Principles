@@ -1,5 +1,5 @@
 package org.example.DependencyInversion;
 
-public interface Calculator {
+public interface CalculatorInterface {
     double calcul(double a, double b);
 }
